@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#050505"/>
+  <rect x="64" y="64" width="1072" height="502" rx="44" stroke="white" stroke-opacity="0.07"/>
+  <circle cx="1008" cy="118" r="162" fill="#6EE7FF" fill-opacity="0.06"/>
+  <circle cx="181" cy="512" r="210" fill="#6EE7FF" fill-opacity="0.035"/>
+  <g transform="translate(86 94)">
+    <rect width="92" height="92" rx="24" fill="#0F1115" stroke="#6EE7FF" stroke-opacity="0.25"/>
+    <path d="M25 24L46 68L67 24" stroke="#6EE7FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M34 24L46 49L58 24" stroke="white" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="86" y="268" fill="white" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="76" font-weight="300">Human OS</text>
+  <text x="90" y="330" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="300">The Operating System For Understanding Yourself</text>
+  <text x="90" y="462" fill="#6EE7FF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="500">Powered by Viyaan AI</text>
+  <path d="M810 234C862 166 944 166 996 234C944 302 862 302 810 234Z" stroke="#6EE7FF" stroke-opacity="0.58" stroke-width="3"/>
+  <circle cx="903" cy="234" r="38" stroke="white" stroke-opacity="0.22" stroke-width="3"/>
+  <circle cx="903" cy="234" r="8" fill="#6EE7FF"/>
+  <path d="M760 414C824 376 882 382 934 432C986 376 1050 368 1114 414" stroke="white" stroke-opacity="0.08" stroke-width="3" stroke-linecap="round"/>
+</svg>

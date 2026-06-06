@@ -1,0 +1,1287 @@
+{
+  "profiles": [
+    {
+      "id": "sandbox-user-123",
+      "email": "sandbox@humanos.ai",
+      "created_at": "2026-05-05T16:21:37.376Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-1",
+      "user_id": "sandbox-user-123",
+      "message": "I have this big presentation tomorrow, and I keep researching instead of actually writing the slides. I am afraid everyone will realize I have no idea what I am doing.",
+      "response": {
+        "observation": "You are engaging in productive procrastination—substituting action with over-preparation. This acts as an emotional buffer against the vulnerability of being evaluated.",
+        "evidence": [
+          "I keep researching instead of actually writing the slides",
+          "I am afraid everyone will realize I have no idea what I am doing"
+        ],
+        "patterns": [
+          {
+            "name": "Fear of Failure",
+            "score": 82,
+            "confidence": 91,
+            "category": "Cognitive"
+          },
+          {
+            "name": "Avoidance",
+            "score": 78,
+            "confidence": 85,
+            "category": "Decision-making"
+          },
+          {
+            "name": "Perfectionism",
+            "score": 85,
+            "confidence": 89,
+            "category": "Behavioral"
+          }
+        ],
+        "connections": [
+          {
+            "source": "Fear of Failure",
+            "target": "Perfectionism",
+            "weight": 85
+          },
+          {
+            "source": "Perfectionism",
+            "target": "Avoidance",
+            "weight": 78
+          }
+        ],
+        "blind_spots": [
+          "Confusing exhaustive prep with capability",
+          "Belief that self-worth equals flawless performance"
+        ],
+        "reflection_question": "What is the cost of delaying the slides compared to the discomfort of completing an imperfect first draft?"
+      },
+      "created_at": "2026-05-30T16:21:37.376Z"
+    },
+    {
+      "id": "conv-2",
+      "user_id": "sandbox-user-123",
+      "message": "My boss asked if I could take on another project, and even though I am already working late every night, I smiled and said yes immediately. Now I feel exhausted and resentful.",
+      "response": {
+        "observation": "You prioritized your boss's immediate comfort over your own sustainable capacity, then experienced resentment because your unspoken boundaries were crossed.",
+        "evidence": [
+          "I smiled and said yes immediately",
+          "Now I feel exhausted and resentful"
+        ],
+        "patterns": [
+          {
+            "name": "People Pleasing",
+            "score": 71,
+            "confidence": 88,
+            "category": "Behavioral"
+          },
+          {
+            "name": "Conflict Avoidance",
+            "score": 75,
+            "confidence": 84,
+            "category": "Decision-making"
+          },
+          {
+            "name": "Self Criticism",
+            "score": 89,
+            "confidence": 92,
+            "category": "Emotional"
+          }
+        ],
+        "connections": [
+          {
+            "source": "People Pleasing",
+            "target": "Conflict Avoidance",
+            "weight": 80
+          }
+        ],
+        "blind_spots": [
+          "Equating boundary setting with rejection",
+          "Expecting others to know your limit without communicating it"
+        ],
+        "reflection_question": "What is the specific fear that makes saying \"no\" feel more dangerous than physical exhaustion?"
+      },
+      "created_at": "2026-06-01T16:21:37.376Z"
+    },
+    {
+      "id": "conv-1780590132431",
+      "user_id": "sandbox-user-123",
+      "message": "hi",
+      "response": {
+        "observation": "You are treating cognitive processing as a substitute for action, keeping yourself in a cycle of analysis to avoid the reality of decision outcomes.",
+        "evidence": [
+          "hi"
+        ],
+        "patterns": [
+          {
+            "name": "Overthinking Loops",
+            "score": 86,
+            "confidence": 90,
+            "category": "Cognitive"
+          }
+        ],
+        "connections": [],
+        "blind_spots": [
+          "Believing that if you think about a problem long enough, you can guarantee a risk-free choice."
+        ],
+        "reflection_question": "What direct action are you avoiding by continuing to analyze this scenario?"
+      },
+      "created_at": "2026-06-04T16:22:12.431Z"
+    },
+    {
+      "id": "conv-1780590788374",
+      "user_id": "sandbox-user-123",
+      "message": "i am sad",
+      "response": {
+        "observation": "You are treating cognitive processing as a substitute for action, keeping yourself in a cycle of analysis to avoid the reality of decision outcomes.",
+        "evidence": [
+          "i am sad"
+        ],
+        "patterns": [
+          {
+            "name": "Overthinking Loops",
+            "score": 86,
+            "confidence": 90,
+            "category": "Cognitive"
+          }
+        ],
+        "connections": [],
+        "blind_spots": [
+          "Believing that if you think about a problem long enough, you can guarantee a risk-free choice."
+        ],
+        "reflection_question": "What direct action are you avoiding by continuing to analyze this scenario?"
+      },
+      "created_at": "2026-06-04T16:33:08.374Z"
+    },
+    {
+      "id": "conv-113a738b-523a-4c77-9c82-b9f705391e12",
+      "user_id": "sandbox-user-123",
+      "message": "I spend more time preparing than actually doing the work.",
+      "response": {
+        "summary": "The user is caught in a cycle of over-preparation as a means to avoid the uncertainty and potential judgment associated with executing their work.",
+        "notices": "What stands out is not a lack of motivation, but rather a deep-seated fear of not meeting expectations. The user seems ready to move forward, but the anticipation of potential judgment introduces a tension that leads to over-preparation. This tension has appeared several times before, and it seems to be a recurring pattern in the user's life. The question is, what would happen if the user were to challenge this assumption and take action despite the uncertainty?",
+        "observation": "What stands out is not a lack of motivation, but rather a deep-seated fear of not meeting expectations. The user seems ready to move forward, but the anticipation of potential judgment introduces a tension that leads to over-preparation. This tension has appeared several times before, and it seems to be a recurring pattern in the user's life. The question is, what would happen if the user were to challenge this assumption and take action despite the uncertainty?",
+        "evolution": "The user's recent reflections suggest a growing awareness of the impact of their patterns on their relationships and overall well-being. This increased self-awareness may be the catalyst for change, but it will require the user to confront their deep-seated fears and challenge their assumptions.",
+        "conflict": {
+          "category": "Action vs Certainty",
+          "want": "To take action and complete the work",
+          "fear": "Of not meeting expectations and being judged",
+          "tension": "Part of you wants to take action and move forward, while another part wants to ensure certainty and control over the outcome. This tension leads to over-preparation as a means to avoid the uncertainty associated with execution."
+        },
+        "blind_spot": {
+          "type": "Hidden Assumption",
+          "contradiction": "The user believes they are not prepared enough",
+          "revealed_truth": "The user is using preparation as a substitute for action, and this over-preparation is actually a form of avoidance",
+          "core_assumption": "The user is treating preparation as a guarantee of success, and this assumption is driving their behavior. However, this assumption is flawed, as preparation can never fully eliminate the uncertainty associated with execution."
+        },
+        "what_changed": "The user's awareness of their patterns and their impact on relationships and overall well-being has increased, and they are beginning to recognize the emotional buffers they create to avoid vulnerability.",
+        "what_stayed_the_same": "The user's deep-seated fear of not meeting expectations and being judged remains, and this fear continues to drive their behavior, leading to over-preparation and avoidance.",
+        "question": "What would happen if you were to challenge your assumption that preparation is a guarantee of success, and instead, take action despite the uncertainty?",
+        "reflection_question": "What would happen if you were to challenge your assumption that preparation is a guarantee of success, and instead, take action despite the uncertainty?",
+        "experiment": "For the next project, set a timer for 30 minutes and work on the task without any preparation or research. After the 30 minutes, take a break and reflect on the experience.",
+        "patterns": [
+          {
+            "name": "Perfectionism",
+            "category": "Cognitive",
+            "strength": 85,
+            "confidence": 91,
+            "evidence": "The user spends more time preparing than actually doing the work, and this over-preparation is driven by a desire for certainty and control."
+          },
+          {
+            "name": "Avoidance",
+            "category": "Behavioral",
+            "strength": 78,
+            "confidence": 85,
+            "evidence": "The user is using preparation as a substitute for action, and this over-preparation is actually a form of avoidance."
+          }
+        ],
+        "connections": [
+          {
+            "source": "Perfectionism",
+            "target": "Avoidance",
+            "weight": 80,
+            "confidence": 85
+          }
+        ],
+        "domains": {
+          "Study": 0,
+          "Career": 80,
+          "Relationships": 40,
+          "Family": 0,
+          "Health": 20,
+          "Finance": 0,
+          "Identity": 60,
+          "Purpose": 40,
+          "Productivity": 80,
+          "Social": 40
+        }
+      },
+      "created_at": "2026-06-05T19:01:58.102Z"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pat-1",
+      "user_id": "sandbox-user-123",
+      "name": "Fear of Failure",
+      "score": 82,
+      "confidence": 91,
+      "category": "Cognitive",
+      "updated_at": "2026-05-30T16:21:37.376Z",
+      "firstSeen": "2026-05-30T16:21:37.376Z",
+      "lastSeen": "2026-05-30T16:21:37.376Z",
+      "contexts": [],
+      "triggers": [],
+      "evidence": [],
+      "relatedPatterns": [],
+      "strengthHistory": [],
+      "confidenceHistory": [],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [],
+      "trendDirection": "Stable",
+      "evidenceHistory": []
+    },
+    {
+      "id": "pat-2",
+      "user_id": "sandbox-user-123",
+      "name": "Avoidance",
+      "firstSeen": "2026-05-30T16:21:37.376Z",
+      "lastSeen": "2026-06-05T19:01:58.111Z",
+      "occurrences": 1,
+      "confidence": 85,
+      "strength": 78,
+      "trend": "Emerging",
+      "trendVelocity": 0,
+      "contexts": [
+        "Career"
+      ],
+      "contextsMap": {
+        "Career": 1
+      },
+      "triggers": [],
+      "evidence": [
+        "The user is using preparation as a substitute for action, and this over-preparation is actually a form of avoidance."
+      ],
+      "relatedPatterns": [
+        "Perfectionism"
+      ],
+      "confidenceHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "confidence": 85
+        }
+      ],
+      "strengthHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 78
+        }
+      ],
+      "reflectionReferences": [
+        "conv-113a738b-523a-4c77-9c82-b9f705391e12"
+      ],
+      "evidenceHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "quote": "The user is using preparation as a substitute for action, and this over-preparation is actually a form of avoidance.",
+          "domain": "Career"
+        }
+      ],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "narrative": "This theme has just entered memory through career reflections. Human OS will watch whether it repeats, spreads, or fades."
+        }
+      ],
+      "milestones": [
+        "First appeared in Career."
+      ],
+      "evolutionStory": "This theme has just entered memory through career reflections. Human OS will watch whether it repeats, spreads, or fades.",
+      "growthSignals": [],
+      "evidenceReferences": [
+        "conv-113a738b-523a-4c77-9c82-b9f705391e12"
+      ],
+      "trendDirection": "Emerging",
+      "score": 78,
+      "category": "Behavioral",
+      "averageStrength": 78,
+      "highestStrength": 78,
+      "lowestStrength": 78,
+      "updated_at": "2026-06-05T19:01:58.137Z"
+    },
+    {
+      "id": "pat-3",
+      "user_id": "sandbox-user-123",
+      "name": "Perfectionism",
+      "firstSeen": "2026-05-30T16:21:37.376Z",
+      "lastSeen": "2026-06-05T19:01:58.111Z",
+      "occurrences": 1,
+      "confidence": 90,
+      "strength": 85,
+      "trend": "Emerging",
+      "trendVelocity": 0,
+      "contexts": [
+        "Career"
+      ],
+      "contextsMap": {
+        "Career": 1
+      },
+      "triggers": [],
+      "evidence": [
+        "The user spends more time preparing than actually doing the work, and this over-preparation is driven by a desire for certainty and control."
+      ],
+      "relatedPatterns": [
+        "Avoidance"
+      ],
+      "confidenceHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "confidence": 91
+        }
+      ],
+      "strengthHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 85
+        }
+      ],
+      "reflectionReferences": [
+        "conv-113a738b-523a-4c77-9c82-b9f705391e12"
+      ],
+      "evidenceHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "quote": "The user spends more time preparing than actually doing the work, and this over-preparation is driven by a desire for certainty and control.",
+          "domain": "Career"
+        }
+      ],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "narrative": "This theme has just entered memory through career reflections. Human OS will watch whether it repeats, spreads, or fades."
+        }
+      ],
+      "milestones": [
+        "First appeared in Career."
+      ],
+      "evolutionStory": "This theme has just entered memory through career reflections. Human OS will watch whether it repeats, spreads, or fades.",
+      "growthSignals": [],
+      "evidenceReferences": [
+        "conv-113a738b-523a-4c77-9c82-b9f705391e12"
+      ],
+      "trendDirection": "Emerging",
+      "score": 85,
+      "category": "Cognitive",
+      "averageStrength": 85,
+      "highestStrength": 85,
+      "lowestStrength": 85,
+      "updated_at": "2026-06-05T19:01:58.119Z"
+    },
+    {
+      "id": "pat-4",
+      "user_id": "sandbox-user-123",
+      "name": "People Pleasing",
+      "score": 71,
+      "confidence": 88,
+      "category": "Behavioral",
+      "updated_at": "2026-06-01T16:21:37.376Z",
+      "firstSeen": "2026-06-01T16:21:37.376Z",
+      "lastSeen": "2026-06-01T16:21:37.376Z",
+      "contexts": [],
+      "triggers": [],
+      "evidence": [],
+      "relatedPatterns": [],
+      "strengthHistory": [],
+      "confidenceHistory": [],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [],
+      "trendDirection": "Stable",
+      "evidenceHistory": []
+    },
+    {
+      "id": "pat-5",
+      "user_id": "sandbox-user-123",
+      "name": "Conflict Avoidance",
+      "score": 75,
+      "confidence": 84,
+      "category": "Decision-making",
+      "updated_at": "2026-06-01T16:21:37.376Z",
+      "firstSeen": "2026-06-01T16:21:37.376Z",
+      "lastSeen": "2026-06-01T16:21:37.376Z",
+      "contexts": [],
+      "triggers": [],
+      "evidence": [],
+      "relatedPatterns": [],
+      "strengthHistory": [],
+      "confidenceHistory": [],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [],
+      "trendDirection": "Stable",
+      "evidenceHistory": []
+    },
+    {
+      "id": "pat-6",
+      "user_id": "sandbox-user-123",
+      "name": "Self Criticism",
+      "score": 89,
+      "confidence": 92,
+      "category": "Emotional",
+      "updated_at": "2026-06-01T16:21:37.376Z",
+      "firstSeen": "2026-06-01T16:21:37.376Z",
+      "lastSeen": "2026-06-01T16:21:37.376Z",
+      "contexts": [],
+      "triggers": [],
+      "evidence": [],
+      "relatedPatterns": [],
+      "strengthHistory": [],
+      "confidenceHistory": [],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [],
+      "trendDirection": "Stable",
+      "evidenceHistory": []
+    },
+    {
+      "id": "pat-7",
+      "user_id": "sandbox-user-123",
+      "name": "Procrastination",
+      "score": 74,
+      "confidence": 80,
+      "category": "Behavioral",
+      "updated_at": "2026-05-30T16:21:37.376Z",
+      "firstSeen": "2026-05-30T16:21:37.376Z",
+      "lastSeen": "2026-05-30T16:21:37.376Z",
+      "contexts": [],
+      "triggers": [],
+      "evidence": [],
+      "relatedPatterns": [],
+      "strengthHistory": [],
+      "confidenceHistory": [],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [],
+      "trendDirection": "Stable",
+      "evidenceHistory": []
+    },
+    {
+      "id": "pat-1780590132437-483",
+      "user_id": "sandbox-user-123",
+      "name": "Overthinking Loops",
+      "score": 86,
+      "confidence": 90,
+      "category": "Cognitive",
+      "updated_at": "2026-06-04T16:33:08.380Z",
+      "firstSeen": "2026-06-04T16:33:08.380Z",
+      "lastSeen": "2026-06-04T16:33:08.380Z",
+      "contexts": [],
+      "triggers": [],
+      "evidence": [],
+      "relatedPatterns": [],
+      "strengthHistory": [],
+      "confidenceHistory": [],
+      "growthHistory": [],
+      "conflictHistory": [],
+      "narrativeHistory": [],
+      "trendDirection": "Stable",
+      "evidenceHistory": []
+    }
+  ],
+  "pattern_connections": [
+    {
+      "id": "conn-1",
+      "user_id": "sandbox-user-123",
+      "source": "Fear of Failure",
+      "target": "Perfectionism",
+      "weight": 85,
+      "evidence_count": 3
+    },
+    {
+      "id": "conn-2",
+      "user_id": "sandbox-user-123",
+      "source": "Perfectionism",
+      "target": "Avoidance",
+      "weight": 79,
+      "evidence_count": 3,
+      "updated_at": "2026-06-05T19:01:58.154Z"
+    },
+    {
+      "id": "conn-3",
+      "user_id": "sandbox-user-123",
+      "source": "Avoidance",
+      "target": "Procrastination",
+      "weight": 92,
+      "evidence_count": 4
+    },
+    {
+      "id": "conn-4",
+      "user_id": "sandbox-user-123",
+      "source": "People Pleasing",
+      "target": "Conflict Avoidance",
+      "weight": 80,
+      "evidence_count": 2
+    }
+  ],
+  "psychological_dna": [
+    {
+      "id": "dna-1",
+      "user_id": "sandbox-user-123",
+      "dimension": "Self Trust",
+      "score": 43,
+      "trend": "rising",
+      "confidence": 89,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 48
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 46
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 45
+        },
+        {
+          "date": "2026-06-04T00:00:00.000Z",
+          "score": 40
+        },
+        {
+          "date": "2026-06-04T00:00:00.000Z",
+          "score": 35
+        },
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 43
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.215Z"
+    },
+    {
+      "id": "dna-2",
+      "user_id": "sandbox-user-123",
+      "dimension": "Confidence",
+      "score": 46,
+      "trend": "rising",
+      "confidence": 88,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 35
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 36
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 38
+        },
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 46
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.279Z"
+    },
+    {
+      "id": "dna-3",
+      "user_id": "sandbox-user-123",
+      "dimension": "Avoidance",
+      "score": 78,
+      "trend": "rising",
+      "confidence": 90,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 70
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 74
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 78
+        }
+      ],
+      "updated_at": "2026-06-04T16:21:37.376Z"
+    },
+    {
+      "id": "dna-4",
+      "user_id": "sandbox-user-123",
+      "dimension": "Perfectionism",
+      "score": 85,
+      "trend": "rising",
+      "confidence": 92,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 80
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 82
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 85
+        }
+      ],
+      "updated_at": "2026-06-04T16:21:37.376Z"
+    },
+    {
+      "id": "dna-5",
+      "user_id": "sandbox-user-123",
+      "dimension": "People Pleasing",
+      "score": 63,
+      "trend": "falling",
+      "confidence": 88,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 68
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 70
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 72
+        },
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 63
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.301Z"
+    },
+    {
+      "id": "dna-6",
+      "user_id": "sandbox-user-123",
+      "dimension": "Emotional Independence",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 78,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 50
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 50
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 50
+        },
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.323Z"
+    },
+    {
+      "id": "dna-7",
+      "user_id": "sandbox-user-123",
+      "dimension": "Curiosity",
+      "score": 84,
+      "trend": "rising",
+      "confidence": 76,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 75
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 78
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 80
+        },
+        {
+          "date": "2026-06-04T00:00:00.000Z",
+          "score": 82
+        },
+        {
+          "date": "2026-06-04T00:00:00.000Z",
+          "score": 84
+        }
+      ],
+      "updated_at": "2026-06-04T16:33:08.397Z"
+    },
+    {
+      "id": "dna-8",
+      "user_id": "sandbox-user-123",
+      "dimension": "Resilience",
+      "score": 60,
+      "trend": "stable",
+      "confidence": 80,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 62
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 61
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 60
+        }
+      ],
+      "updated_at": "2026-06-04T16:21:37.376Z"
+    },
+    {
+      "id": "dna-9",
+      "user_id": "sandbox-user-123",
+      "dimension": "Self Criticism",
+      "score": 77,
+      "trend": "falling",
+      "confidence": 94,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 82
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 85
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 88
+        },
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 77
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.230Z"
+    },
+    {
+      "id": "dna-10",
+      "user_id": "sandbox-user-123",
+      "dimension": "Autonomy",
+      "score": 62,
+      "trend": "stable",
+      "confidence": 80,
+      "history": [
+        {
+          "date": "2026-05-20T16:21:37.376Z",
+          "score": 65
+        },
+        {
+          "date": "2026-05-25T16:21:37.376Z",
+          "score": 64
+        },
+        {
+          "date": "2026-06-04T16:21:37.376Z",
+          "score": 62
+        }
+      ],
+      "updated_at": "2026-06-04T16:21:37.376Z"
+    },
+    {
+      "id": "dna-1780686118166-157",
+      "user_id": "sandbox-user-123",
+      "dimension": "Need For Approval",
+      "score": 45,
+      "trend": "falling",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 45
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.166Z"
+    },
+    {
+      "id": "dna-1780686118175-757",
+      "user_id": "sandbox-user-123",
+      "dimension": "Fear Of Failure",
+      "score": 45,
+      "trend": "falling",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 45
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.175Z"
+    },
+    {
+      "id": "dna-1780686118182-361",
+      "user_id": "sandbox-user-123",
+      "dimension": "Fear Of Rejection",
+      "score": 45,
+      "trend": "falling",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 45
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.182Z"
+    },
+    {
+      "id": "dna-1780686118191-50",
+      "user_id": "sandbox-user-123",
+      "dimension": "Need For Control",
+      "score": 71,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 71
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.190Z"
+    },
+    {
+      "id": "dna-1780686118200-562",
+      "user_id": "sandbox-user-123",
+      "dimension": "Uncertainty Tolerance",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.199Z"
+    },
+    {
+      "id": "dna-1780686118208-106",
+      "user_id": "sandbox-user-123",
+      "dimension": "Emotional Resilience",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.208Z"
+    },
+    {
+      "id": "dna-1780686118247-858",
+      "user_id": "sandbox-user-123",
+      "dimension": "Boundary Strength",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.247Z"
+    },
+    {
+      "id": "dna-1780686118263-226",
+      "user_id": "sandbox-user-123",
+      "dimension": "Identity Stability",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.263Z"
+    },
+    {
+      "id": "dna-1780686118270-914",
+      "user_id": "sandbox-user-123",
+      "dimension": "Authenticity",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.269Z"
+    },
+    {
+      "id": "dna-1780686118285-882",
+      "user_id": "sandbox-user-123",
+      "dimension": "Purpose Clarity",
+      "score": 56,
+      "trend": "rising",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 56
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.285Z"
+    },
+    {
+      "id": "dna-1780686118293-840",
+      "user_id": "sandbox-user-123",
+      "dimension": "Decision Confidence",
+      "score": 33,
+      "trend": "falling",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 33
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.293Z"
+    },
+    {
+      "id": "dna-1780686118309-694",
+      "user_id": "sandbox-user-123",
+      "dimension": "Dependency",
+      "score": 45,
+      "trend": "falling",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 45
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.308Z"
+    },
+    {
+      "id": "dna-1780686118316-38",
+      "user_id": "sandbox-user-123",
+      "dimension": "Overthinking",
+      "score": 45,
+      "trend": "falling",
+      "confidence": 53,
+      "history": [
+        {
+          "date": "2026-06-05T19:01:58.111Z",
+          "score": 45
+        }
+      ],
+      "updated_at": "2026-06-05T19:01:58.316Z"
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins-1",
+      "user_id": "sandbox-user-123",
+      "title": "Fear of Evaluation",
+      "description": "You frequently avoid tasks or delay projects when you anticipate they will be evaluated by peers or mentors. This is rooted in a pattern of equating your self-worth with external outcomes.",
+      "confidence": 88,
+      "areas": [
+        "Career",
+        "Learning"
+      ],
+      "created_at": "2026-05-30T16:21:37.376Z"
+    },
+    {
+      "id": "ins-2",
+      "user_id": "sandbox-user-123",
+      "title": "The Safety of Low Autonomy",
+      "description": "You tend to defer major decisions to others under the guise of collaboration. This lets you share or deflect the blame of potential failure, protecting your self-image at the cost of your autonomy.",
+      "confidence": 82,
+      "areas": [
+        "Career",
+        "Relationships"
+      ],
+      "created_at": "2026-06-01T16:21:37.376Z"
+    },
+    {
+      "id": "ins-a0791aa5-d1b2-4edd-bd81-8c8c453c8c06",
+      "user_id": "sandbox-user-123",
+      "title": "The Standard Shield",
+      "description": "You establish rigid standards to make action feel too dangerous, maintaining control by avoiding actual completion.",
+      "confidence": 91,
+      "areas": [
+        "Productivity",
+        "Career"
+      ],
+      "created_at": "2026-06-05T19:01:58.354Z"
+    }
+  ],
+  "timeline_events": [
+    {
+      "id": "tl-1",
+      "user_id": "sandbox-user-123",
+      "type": "pattern_discovered",
+      "title": "Self criticism became visible",
+      "description": "Self Criticism became visible in memory.",
+      "metadata": {
+        "score": 89
+      },
+      "created_at": "2026-05-25T16:21:37.376Z"
+    },
+    {
+      "id": "tl-2",
+      "user_id": "sandbox-user-123",
+      "type": "dna_evolved",
+      "title": "Avoidance became more active",
+      "description": "Avoidance shifted in recent reflections.",
+      "metadata": {
+        "score": 78
+      },
+      "created_at": "2026-05-28T16:21:37.376Z"
+    },
+    {
+      "id": "tl-3",
+      "user_id": "sandbox-user-123",
+      "type": "connection_formed",
+      "title": "Perfectionism-Avoidance Bridge",
+      "description": "A strong behavioral connection formed between Perfectionism and Avoidance.",
+      "metadata": {
+        "connection": "Perfectionism -> Avoidance"
+      },
+      "created_at": "2026-05-30T16:21:37.376Z"
+    },
+    {
+      "id": "tl-4",
+      "user_id": "sandbox-user-123",
+      "type": "insight_generated",
+      "title": "An insight formed: Fear of Evaluation",
+      "description": "A deep psychological insight was uncovered based on career avoidance behaviors.",
+      "metadata": {
+        "insightId": "ins-1"
+      },
+      "created_at": "2026-06-01T16:21:37.376Z"
+    },
+    {
+      "id": "tl-5",
+      "user_id": "sandbox-user-123",
+      "type": "milestone",
+      "title": "Self-Awareness Mirror Initialized",
+      "description": "Successfully configured Human OS core profiling. Evolving Psychological DNA.",
+      "metadata": {},
+      "created_at": "2026-06-04T16:21:37.376Z"
+    },
+    {
+      "id": "tl-1780590788384",
+      "user_id": "sandbox-user-123",
+      "type": "pattern_discovered",
+      "title": "Overthinking Loops Observed",
+      "description": "Overthinking Loops became visible in recent reflections.",
+      "metadata": {
+        "pattern": "Overthinking Loops",
+        "score": 86
+      },
+      "created_at": "2026-06-04T16:33:08.384Z"
+    },
+    {
+      "id": "tl-1780590788395",
+      "user_id": "sandbox-user-123",
+      "type": "dna_evolved",
+      "title": "Self Trust Profile Evolved",
+      "description": "Self Trust shifted in recent reflections.",
+      "metadata": {
+        "dimension": "Self Trust",
+        "change": -5,
+        "score": 35
+      },
+      "created_at": "2026-06-04T16:33:08.395Z"
+    },
+    {
+      "id": "tl-6e566e2a-ff0f-43c0-956e-982899217810",
+      "user_id": "sandbox-user-123",
+      "type": "pattern_discovered",
+      "title": "A recurring theme emerged: Perfectionism",
+      "description": "Perfectionism became visible in career reflections.",
+      "metadata": {
+        "pattern": "Perfectionism",
+        "trend": "Emerging"
+      },
+      "created_at": "2026-06-05T19:01:58.129Z"
+    },
+    {
+      "id": "tl-c7aa2a62-b029-4b51-bb71-f0bc6d38a3e8",
+      "user_id": "sandbox-user-123",
+      "type": "pattern_discovered",
+      "title": "A recurring theme emerged: Avoidance",
+      "description": "Avoidance became visible in career reflections.",
+      "metadata": {
+        "pattern": "Avoidance",
+        "trend": "Emerging"
+      },
+      "created_at": "2026-06-05T19:01:58.146Z"
+    },
+    {
+      "id": "tl-bde72874-74c8-4807-8a10-8a5cc1e517a2",
+      "user_id": "sandbox-user-123",
+      "type": "behavior_change",
+      "title": "Improved Self Trust",
+      "description": "Recent reflections show more trust in your own read of the situation before outside certainty arrives.",
+      "metadata": {
+        "dimension": "Self Trust",
+        "direction": "up"
+      },
+      "created_at": "2026-06-05T19:01:58.222Z"
+    },
+    {
+      "id": "tl-60d77f34-dac8-40af-8718-3d6e303cfe12",
+      "user_id": "sandbox-user-123",
+      "type": "behavior_change",
+      "title": "Reduced Self Criticism",
+      "description": "The self-critical loop appears less dominant, leaving more room for a calmer internal voice.",
+      "metadata": {
+        "dimension": "Self Criticism",
+        "direction": "down"
+      },
+      "created_at": "2026-06-05T19:01:58.239Z"
+    },
+    {
+      "id": "tl-3e3b41bd-e8e1-41da-84f1-98ed4d511a13",
+      "user_id": "sandbox-user-123",
+      "type": "behavior_change",
+      "title": "Improved Boundary Strength",
+      "description": "You are showing more willingness to protect your limits instead of automatically absorbing pressure.",
+      "metadata": {
+        "dimension": "Boundary Strength",
+        "direction": "up"
+      },
+      "created_at": "2026-06-05T19:01:58.254Z"
+    },
+    {
+      "id": "tl-d0f55f21-d41c-42a3-8cd2-15492c69e5f7",
+      "user_id": "sandbox-user-123",
+      "type": "milestone",
+      "title": "Story Phase 4 Initialized",
+      "description": "Evolved narrative to Phase 4: Recalibration.",
+      "metadata": {},
+      "created_at": "2026-06-05T19:01:58.342Z"
+    },
+    {
+      "id": "tl-1daba663-7103-49e2-abe3-78094162c361",
+      "user_id": "sandbox-user-123",
+      "type": "insight_generated",
+      "title": "Insight Formed: The Standard Shield",
+      "description": "Uncovered a recurring cognitive blind spot in your behavior: The Standard Shield.",
+      "metadata": {
+        "insightId": "ins-a0791aa5-d1b2-4edd-bd81-8c8c453c8c06"
+      },
+      "created_at": "2026-06-05T19:01:58.363Z"
+    }
+  ],
+  "blind_spots": [
+    {
+      "id": "bs-1",
+      "user_id": "sandbox-user-123",
+      "contradiction": "Believing that incomplete work is safe from judgment",
+      "revealedTruth": "Postponing completion is a shield to defer evaluation, not laziness.",
+      "confidence": 88,
+      "created_at": "2026-05-31T06:49:17.879Z",
+      "revealed_truth": "Postponing completion is a shield to defer evaluation, not laziness."
+    }
+  ],
+  "internal_conflicts": [
+    {
+      "id": "ic-1",
+      "user_id": "sandbox-user-123",
+      "partA": "Action",
+      "partB": "Certainty",
+      "tension": "Growth requires exposing work to judgment, which threatens safety.",
+      "created_at": "2026-05-31T06:49:17.879Z",
+      "part_a": "Action",
+      "part_b": "Certainty",
+      "category": "Action vs Certainty",
+      "contexts": [],
+      "occurrences": 1,
+      "strength": 75,
+      "firstSeen": "2026-05-31T06:49:17.879Z",
+      "lastSeen": "2026-05-31T06:49:17.879Z"
+    }
+  ],
+  "root_drivers": [
+    {
+      "id": "rd-1",
+      "user_id": "sandbox-user-123",
+      "rootDriver": "Fear of Evaluation",
+      "createsPatterns": [
+        "Perfectionism",
+        "Avoidance",
+        "Overthinking Loops",
+        "Self Criticism"
+      ],
+      "created_at": "2026-05-31T06:49:17.879Z",
+      "root_driver": "Fear of Evaluation",
+      "creates": [
+        "Perfectionism",
+        "Avoidance",
+        "Overthinking Loops",
+        "Self Criticism"
+      ]
+    }
+  ],
+  "narratives": [
+    {
+      "id": "nar-1",
+      "user_id": "sandbox-user-123",
+      "title": "Phase 1: Initial Discovery",
+      "content": "Your self-awareness mirror initialized. Early reflections show perfectionistic avoidance and people-pleasing loops. You are beginning to map the boundaries of your inner world.",
+      "phase": "Month 1",
+      "created_at": "2026-05-16T06:49:17.879Z"
+    },
+    {
+      "id": "nar-2",
+      "user_id": "sandbox-user-123",
+      "title": "Phase 2: Emerging Awareness",
+      "content": "You began identifying the Perfectionism-Avoidance bridge, noting how high standards are erected as shields against evaluation. Insights regarding career standard shields are surfacing.",
+      "phase": "Month 2",
+      "created_at": "2026-05-26T06:49:17.879Z"
+    },
+    {
+      "id": "nar-8341c5d6-baae-4958-a278-6ce4a673cd80",
+      "user_id": "sandbox-user-123",
+      "title": "Phase 4: Evolution & Re-Calibration",
+      "content": "The system reports stabilizing trends. Avoidance patterns are decaying as boundary strength registers incremental growth.",
+      "phase": "Month 4",
+      "created_at": "2026-06-05T19:01:58.335Z"
+    }
+  ],
+  "long_term_memory": {
+    "sandbox-user-123": {
+      "firstReflection": "I have this big presentation tomorrow, and I keep researching instead of actually writing the slides. I am afraid everyone will realize I have no idea what I am doing.",
+      "mostRecurringPattern": "Fear of Failure",
+      "mostCommonContext": "Career",
+      "emergingTheme": "The theme of perfectionism is registering emerging activity.",
+      "patternBecomingWeaker": "No specific defensive loop has shown significant reduction recently; the core model remains stable.",
+      "mostFrequentConflict": "Action vs Certainty",
+      "mostCommonTrigger": "Fear of Evaluation",
+      "firstMemoryRecorded": "May 2026",
+      "recentShift": "Your core cognitive and emotional patterns have maintained a consistent equilibrium without major shifts.",
+      "currentModelSummary": "Dialogue history suggests a primary coping cycle around fear of failure triggered by concerns of fear of evaluation in career domains. You are currently navigating an internal conflict of action vs certainty, which manifests as your core cognitive and emotional patterns have maintained a consistent equilibrium without major shifts.",
+      "currentExperiment": {
+        "action": "Submit an imperfect draft or share a half-finished layout with a colleague.",
+        "purpose": "Deconstruct the standard shield by exposing incomplete work to feedback early.",
+        "expectedResistance": "A strong urge to make one final polish or review the material again.",
+        "successCondition": "Draft sent or shared with a teammate within the next 12 hours."
+      }
+    }
+  }
+}
