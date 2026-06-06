@@ -3,7 +3,7 @@ import Navigation from '@/components/Navigation';
 import Image from 'next/image';
 import Script from 'next/script';
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-9TNT5F6YWP';
+const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 export const metadata = {
   title: 'Human OS | Understand Yourself Better Every Day',
@@ -49,23 +49,27 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      {/* Google Analytics 4 */}
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        strategy="afterInteractive"
-      />
-      <Script id="ga4-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_ID}', {
-            page_title: document.title,
-            page_location: window.location.href,
-            anonymize_ip: true
-          });
-        `}
-      </Script>
+      {/* Google Analytics 4 — only renders when measurement ID is configured */}
+      {GA_ID && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}', {
+                page_title: document.title,
+                page_location: window.location.href,
+                anonymize_ip: true
+              });
+            `}
+          </Script>
+        </>
+      )}
       <body className="antialiased bg-[#050505] text-white min-h-screen flex flex-col selection:bg-[#6EE7FF]/30 selection:text-white relative overflow-x-hidden">
         {/* Apple-style subtle cyan top spotlight glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-[320px] bg-gradient-to-b from-[#6EE7FF]/[0.03] to-transparent blur-[120px] pointer-events-none z-0 rounded-full animate-pulse-glow" />

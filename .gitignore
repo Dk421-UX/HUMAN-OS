@@ -1,0 +1,14 @@
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.*.local
+**/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
