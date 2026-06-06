@@ -40,6 +40,30 @@ app.use(cors({
 
 app.use(express.json({ limit: '32kb' }));
 
+// ─── Root route — required by Render health checks ───────────────────────────
+// Render pings GET / to verify the service is alive.
+// Without this route Express returns "Cannot GET /" which fails the health check.
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    service: 'Human OS API',
+    status: 'running',
+    version: '1.0.0'
+  });
+});
+
+// ─── /health — secondary health check (Render + uptime monitors) ─────────────
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    success: true,
+    service: 'Human OS API',
+    status: 'running',
+    groq: !!process.env.GROQ_API_KEY,
+    uptime: Math.round(process.uptime()),
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Initialize Database (Seeds mock JSON DB if offline)
 await db.init();
 
@@ -290,10 +314,12 @@ console.log("Human OS Boot Sequence");
 console.log("Groq Loaded:", !!process.env.GROQ_API_KEY);
 console.log("================================");
 
-// Health check endpoint
+// ─── /api/health — detailed health check for monitoring ─────────────────────
 app.get('/api/health', (req, res) => {
   res.status(200).json({
+    success: true,
     status: 'online',
+    service: 'Human OS API',
     groq: !!process.env.GROQ_API_KEY,
     database: db.isSupabaseEnabled() ? 'supabase' : 'local-json',
     uptime: Math.round(process.uptime()),
@@ -312,6 +338,17 @@ app.get('/api/test-ai', async (req, res) => {
   }
 });
 
+// ─── 404 catch-all — returns JSON, never HTML "Cannot GET X" ─────────────────
+// Must be registered AFTER all valid routes.
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    error: 'Route not found',
+    path: req.originalUrl
+  });
+});
+
+// ─── Global error handler ─────────────────────────────────────────────────────
 app.use((error, req, res, next) => {
   if (res.headersSent) {
     return next(error);
